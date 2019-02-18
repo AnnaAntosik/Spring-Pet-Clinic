@@ -1,4 +1,4 @@
-package springpetclinic;
+package com.qna.exercises.springpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
