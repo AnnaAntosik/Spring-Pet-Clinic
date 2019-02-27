@@ -1,13 +1,13 @@
 package com.qna.exercises.springpetclinic.services.map;
 
 import com.qna.exercises.springpetclinic.model.Speciality;
-import com.qna.exercises.springpetclinic.services.SpecialitiesService;
+import com.qna.exercises.springpetclinic.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialitiesServiceMap extends AbstractMapService<Speciality,Long> implements SpecialitiesService {
+public class SpecialityServiceMap extends AbstractMapService<Speciality,Long> implements SpecialityService {
 
     @Override
     public Set<Speciality> findAll() {
