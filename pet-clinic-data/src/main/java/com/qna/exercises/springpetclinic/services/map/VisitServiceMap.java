@@ -2,9 +2,11 @@ package com.qna.exercises.springpetclinic.services.map;
 
 import com.qna.exercises.springpetclinic.model.Visit;
 import com.qna.exercises.springpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService{
 
     @Override
